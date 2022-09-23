@@ -16,6 +16,7 @@ L'émetteur envoie des ondes ultrason en face de lui avec un angle de 15°.
 Lorsque les ondes rencontreront un obstacles elles vont rebondir dessus et retourner vers le récepteur.
 Le temps que l'onde met à revenir permet d'obtenir la distance à laquelle l'obstacle se trouve.
 le capteur possède 4 pin :
+
 * 1 +
 * 1 Gnd
 * 1 pin INput l'émetteur
