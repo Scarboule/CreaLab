@@ -8,3 +8,13 @@ Le robot possède un train de chenille sur la droite et un sur la gauche a la ma
 Lorsqu'il détecte un obstacle en face de lui à moin de 50cm, le robot inverse le sens de rotation du moteur de droite. Ce qui le fera tourner vers la droite pour évité l'obstacle.
 De plus nous avons rajouté un haut parleur, qui, via un module mp3 peut émettre un son.
 Ainsi, losque le robot se trouve à moin  20cm d'un obstacle il va produire un son d'alerte à la potentiel collision.
+
+## Principe de fonctionnement du capteur à ultrason
+Les ultrasons sont des ondes sonores, inaudible par l'homme.
+Le capteur est composé d'un émetteur d'ultrason et d'un récepteur.
+L'émetteur envoie des ondes ultrason en face de lui avec un angle de 15°.
+Lorsque les ondes rencontreront un obstacles elles vont rebondir dessus et retourner vers le récepteur.
+Le temps que l'onde met à revenir permet d'obtenir la distance à laquelle l'obstacle se trouve.
+
+
+
