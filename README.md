@@ -26,3 +26,14 @@ Un haut-parleur est un dispositif électronique qui traduit un signal électriqu
 Le haut parleur a besoin d'un signal alternatif, il donnera un son équivalent a la fréquence et a l'amplitude du courant reçus.
 Ce signal lui est envoyé directement par le module mp3.
 Le mouvement est crée grâce a un éléctro-aimant et une bobine. L'éléctro-aimant est solidaire d'une membrane. Lorsque la bobine est traversé par du courant, elle va a tour de role s'éloigné et se rapprocher. En bougeant la bobine va crée une pression acoustique dans l'air, ce qui se traduit en une onde sonore, un son.
+
+## Principe de fonctionnement d'un moteur 9volt
+Comme tout les moteurs, un moteur 9volt consiste a transformer une énergie(ici électrique) en énergie mécanique.
+Grace au rotor et au stator, Cela produit un champ magnétique qui va entrainer la rotation.
+
+## Principe d'une puce L298N
+Une puce L298N contient 2pont en H, chacun permettant de controller un moteur et de les faire fonctionner séparément.
+Ils utilisent des commandes logiques "basse puissance" ce qui permet de l'utiliser pour de l'arduino.
+Les ponts fonctionnent grace a des broches d'activation(ENA,ENB)pour lancer et arréter les moteurs ainsi que varier la vitesse des moteurs
+et des broches de sélections(IN1,IN2,IN3,IN4) pour sélectionner le sens de rotation des moteurs
+Pour controler le sens de rotation des moteurs on va utilisé les transitors dans le pont en H 2 par 2 ce qui va entrainer un changement dans le sens du courant.
