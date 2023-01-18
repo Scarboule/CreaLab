@@ -1,4 +1,5 @@
-# Débilus (ft Arthur Prud'homme et Clément Souplet)
+# Débilus
+## Contributeur : Arthur Prud'homme, Clément Souplet et Oscar Dartigues.
 ## Projet réalisé dans le cadre de la première semaine de CréaLab en A2 "Coding & digital innovation" à l'IIM.
 
 Débilus est un robot autonome. L'objectif du projet est de réaliser un robot capable de se déplacer et d'éviter les obstacles.
